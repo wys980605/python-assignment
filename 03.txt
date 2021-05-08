@@ -1,0 +1,17 @@
+1.九九乘法表
+for i in range(1,10):
+    for j in range(1,i+1):
+        print('{}*{}={}' .format(i,j,i*j),end = ' ')
+    print('\n')
+
+
+2.1) 随机生成1000个整数 2) 数字范围[20,100] 3) 升序输出所有不同的数字及其 每个数字的重复次
+数。
+import random
+dict1={}
+for i in range(1000):
+    a=random.randint(20,100)
+    dict1[a]=dict1.get(a,0)+1
+    
+for i in sorted(dict1):
+    print('{}的出现次数为：{}'.format(i,dict1[i]))
