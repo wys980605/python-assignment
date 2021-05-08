@@ -1,4 +1,4 @@
-作业1
+#作业1
 
 class animal():
     def __init__(self,name):
@@ -22,7 +22,7 @@ dog.breath()
 
 
 
-作业2 用if语句：
+#作业2 用if语句：
 
 catalog={'bearing': 30, 'gear': 10, 'pump': 50, 'sealing': 0}
 
@@ -49,7 +49,7 @@ while True:
 
 
 
-转化为try......except.......：
+#转化为try......except.......：
 
  
 catalog={'bearing':30,'gear':10,'pump':50,'sealing':0}
